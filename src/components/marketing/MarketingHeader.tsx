@@ -60,6 +60,12 @@ export default function MarketingHeader() {
           {/* Right: CTA buttons (desktop) */}
           <div className="hidden md:flex items-center gap-2">
             <Link
+              to="/login"
+              className="px-4 py-2 rounded-md text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
+            >
+              Login
+            </Link>
+            <Link
               to="/jobs"
               className="px-4 py-2 rounded-md text-sm font-medium text-foreground hover:bg-accent transition-colors"
             >
